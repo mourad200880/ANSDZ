@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass|Roboto|Roboto+Condensed|Srisakdi');
+
+body{
+	color: #A7288A;
+	background: #000;
+	height: 100vh; 
+    line-height: 1.6rem; 
+    font-family: 'My Darling', sans-serif;
+
+
+}
+.padding{
+	padding: 0; 
+	margin: 0;  
+       
+}
+section{
+	scroll-snap-align: center;
+
+}
+
+.nv{
+	height: 80px; 
+	color: #3c8dbc; 
+
+}
+nav.bg-success{
+	opacity: 0.6; 
+}
+.nav-link a{
+	color: #F4F4F4; 
+}
+a{
+	color: #F6F6F6; 
+}
+a:hover{
+	color: #28a745; 
+}
+.form-inline{
+	width: 50%; 
+	height: 100px;
+		
+}
+.form-inline input{
+	width: 100%;
+	padding: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+#input_bar{
+	width: 500px; 
+}
+.btn.btn-success.ml-auto.btn-s{
+	width: 55px;
+	height: 38px; 
+}
+.btn{
+	margin: 0; 
+	width: 200px; 
+	height: 60px; 
+}
+.navbar{
+	list-style: none; 
+}
+.navbar a{ 
+	text-decoration: underline; 
+	text-transform: uppercase; 
+	font-size: 19px; 
+
+
+}
+#myCatégorie2{
+	display: none; 
+}
+#myCatégorie3{
+	display: none; 
+}
+.icon01{
+	width: 100%; 
+	height: 250px; 
+	font-size: 1.2rem;
+	padding: 25px;
+	text-align: center;
+	margin-right: 5px;
+	transition: 0.3s;  
+
+}
+.icon01:hover{
+	transform: translate(10px);
+	transform: scale(1.1);
+	transition: 0.1s 0.2s;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	/* background-color: #ff7979; */
+	background: #28a745;
+	color: #fff;
+}
+.icon01:hover a{
+	color: #fff;
+}
+
+
+.icon01 a img{
+	width: 100%;
+	height:100px;
+	margin-bottom: 25px;
+	border:1px solid #28a745; 
+}
+.icon02{
+	width: 90%; 
+	height: 220px; 
+	font-size: 1.2rem;
+	padding: 5px;
+	text-align: center;
+	margin-right: 5px;
+	transition: 0.3s;  
+
+}
+.icon02:hover{
+	transform: translate(10px);
+	transform: scale(1.1);
+	transition: 0.1s 0.2s;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	/* background-color: #ff7979; */
+	background: #28a745;
+	color: #fff;
+}
+.icon02:hover a{
+	color: #fff;
+}
+
+
+.icon02 a img{
+	width: 100%;
+	height:100px;
+	margin-bottom: 25px; 
+	border:1px solid #28a745;
+}
+.description a{
+	color: #000; 
+}
+.card{
+	margin-bottom: 15px;
+}
+.card-img{
+	width: 100%; 
+	height: 140px;
+	border: 1px solid #252954;  
+}
+.card-body{
+	height: 400px;
+	overflow: hidden; 
+}
+footer{
+	/* background: #2c3e50; */
+	color: #fff;
+	padding: 10px;  
+}
+
+
+footer .nav-link{
+	 
+	text-decoration: none; 
+	color: #fff; 
+}
+footer .fa{
+  padding: 15px; 
+  font-size: 35px; 
+  color: #fff; 
+}
+footer .fa:hover{
+  text-decoration: none;
+  color: #d5d5d5;  
+}
+
+footer .fa-facebook:hover{
+  text-decoration: none;
+  color: #4267b2;  
+}
+footer .fa-twitter:hover{
+  text-decoration: none;
+  color: #4ab3f4;  
+}
+footer .fa-google:hover{
+  text-decoration: none;
+  color: #d5d5d5;  
+}
+footer .fa-youtube:hover{
+  text-decoration: none;
+  color: #ff0000;  
+}
+footer .fa-linkedin:hover{
+  text-decoration: none;
+  color: #0077B5;  
+}
+footer .ft-a{
+	color: #fff;
+	font-size: 24px;  
+}
+.ctForm{
+	height: 900px; 
+}
+.ctForm-1{
+	display: flex;
+	justify-content: space-between;
+}
+.fb{
+	width: 15%;
+	height: 100px; 
+	color: #fff;
+	background-color: #297fb8;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.1rem;
+	border-radius: 30%;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto; 
+	flex-flow: column;
+	text-align: center;
+
+
+}
+.fb a{
+	text-decoration: none;
+	color: #fff;
+}
+.fb:hover{
+	transform: scale(1.1);
+
+}
+.ou{
+	width: 100%;
+	height: 50px; 
+	text-align: center;
+	font-size: 1.9rem;
+	font-family: 'Srisakdi', cursive; 
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+input{
+	width: 100%; 
+}
+.hGt{
+	height: 900px; 
+}
+.card-img{
+	width: 250px; 
+}
+.P{
+	color: white; 
+	border-radius: 10%; 
+}
+.P a{
+	color: #fff; 
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+.card{
+	color: #040404;
+	text-align: justify-all;
+}
+.progress-bar{
+	background-color: #28a745;
+}
+h1{
+	text-decoration: underline;
+}
+
+/*style buttons*/
+.btn-outline-darkPurple{
+	color: #A7288A;
+	border-color: #A7288A;
+  }
+  .btn-outline-darkPurple:hover{
+	color: #fff;
+	background-color: #A7288A;
+	border-color: #A7288A;
+  }

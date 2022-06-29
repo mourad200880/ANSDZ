@@ -1,0 +1,224 @@
+$(document).ready(function() {
+	//$('.box').fadeOut(3000)
+	//$('.box').fadeIn(5000)
+	//$('.box').show(5000)
+	//$('.box').hide(5000)
+	//$('.box').slideUp(5000)
+	//$('.box').slideDown(5000)
+
+/*	$(".btn1").click(function() {
+		$('.box').fadeOut(3000).delay(2000).show(3000)
+	})	*/
+
+	//$(".btn1").click(function() {
+		//$('.box').fadeToggle(3000)
+		//$('.box').toggle(2000)
+		//$('.box').slideToggle(2000)
+
+		//$('.box').fadeTo(5000,0.3)
+	//}) //btn1 click
+
+/*    $('.btn2').click(function () {
+      	$(".box").animate({
+      		width:"100px",
+      		height:"100px",
+      		opacity:0.5
+      	},5000)
+      })
+      $('.btn1').click(function () {
+      	$(".box").animate({
+      		width:"400px",
+      		height:"400px",
+      		opacity:1
+      	},5000)
+      }) 
+
+       $('.btn1').click(function () {
+      	$(".box").animate({
+      		marginLeft:"+=20px",
+      		height:"+=20px",
+      	},1000)
+      })
+       $('.btn2').click(function () {
+      	$(".box").animate({
+      		width:"-=20px",
+      		height:"-=20px",
+      	},1000)
+      })*/
+
+      /*   $('.btn1').click(function () {
+      	$(".box").animate({
+      		marginLeft:"600px",
+      		height:"500px",
+      	},5000)
+      })
+
+         $(".btn2").click(function () {
+         	$(".box").stop()
+         })*/
+/*  $("h1").append("<p>Alger</p>")
+
+   $(".para").appendTo('h1')
+
+ $(".para").text("My Name Is Ahmed") // innerText
+ $(".para").html("<b>My Name Is Ahmed</b>") // innerHTML
+
+ $(".para").css({
+ 	'color':'red',
+ 	'background-color':'green'
+ })*/
+
+  // after befor 
+
+/*  $('li').click(function () {
+  	//$(this).after("<h3>Hi Ecoin DZ</h3>")
+  	$(this).before("<h3>Hi Ecoin DZ</h3>")
+  })
+
+console.log(  $('a').attr('href'))
+$('a').attr('href','http://yahoo.com')
+$('a').removeAttr('href')*/
+/*$("button").first().click(function () {
+	var ll = $('li').last().clone()
+	//console.log(ll.text())
+	//$('li').last().after('<li>jQuery</li>')
+	$('li').last().after(ll)
+})*/
+
+/*$("button").last().click(function () {
+	//var ll = $('li').last().clone()
+	//console.log(ll.text())
+	//$('li').last().after('<li>jQuery</li>')
+	var lg = $('li').length
+	if (lg>3) {
+		$('li').last().remove()
+	}else{
+		$(this).attr('disabled','disabled')
+	}
+	
+})*/
+/*$("#btn1").on('click',  function() {
+  $(".box").addClass("green blue")
+  
+});
+
+$("#btn2").on('click',  function() {
+  $(".box").removeClass("green")
+  
+});
+
+$("#btn1").on('click',  function() {
+  $(".box").toggleClass("green")
+  
+});
+*/
+/*$("button").click(function(event) {
+  event.preventDefault();
+var result = $("input[type=text]").val().trim()
+
+$(".red").text(result).show()
+})*/
+//window.location = "sdfsfdfd.html"
+var commune = {
+  '16':["alger center","brn ak"],
+  '06':["alger center","brn ak"],
+  '10':["alger center","brn ak"],
+}
+var list = [
+  ["Admin",455888],
+  ["ahmed",123456],
+  ["sara",121212],
+  ["user1",5447809],
+  ["Ali",456987],
+  ["walid",963852],
+  ["ilham",852741]
+]
+console.log(list)
+function sreachUP(data,u,p) {
+  for (var i = 0; i < data.length; i++) {
+    if ((u==data[i][0])&&(p==data[i][1])) {
+      return true
+    }
+  }
+   return false
+}
+
+$("button.btn").on('click',function () {
+  var u = $("#user").val().trim();
+  var p = $("#pass").val().trim();
+
+  if (sreachUP(list,u,p)) {
+    $(".alert-success").show(5000).delay(2000).hide(3000,function () {
+      window.location="admin.html"
+    });
+   
+  }else{
+     $(".alert-danger").show(5000).delay(2000).hide(3000);
+  }
+})
+/*foucus
+foucusin
+foucuout
+blur
+select*/
+/*var i = 0
+$("input[type=text]").change(function() {
+  //alert("fffff")
+  console.log("dfgdfgdfg"+i);
+  i++
+})*/
+
+$("select").change(function () {
+  alert($(this).val())
+})
+});  // document ready
+/*var u = "rgdgdg",pass=645545
+
+var list = {
+  ["djfdhjdfjd",555444],
+  ["djfdhjdfjd",555444],
+  ["djfdhjdfjd",555444],
+  ["djfdhjdfjd",555444],
+  ["djfdhjdfjd",555444],
+  ["djfdhjdfjd",555444],
+  ["djfdhjdfjd",555444]
+}*/
+/*
+Properties that can be animated:
+
+backgroundPositionX
+backgroundPositionY
+borderWidth
+borderBottomWidth
+borderLeftWidth
+borderRightWidth
+borderTopWidth
+borderSpacing
+margin
+marginBottom
+marginLeft
+marginRight
+marginTop
+outlineWidth
+padding
+paddingBottom
+paddingLeft
+paddingRight
+paddingTop
+height
+width
+maxHeight
+maxWidth
+minHeight
+minWidth
+fontSize
+bottom
+left
+right
+top
+letterSpacing
+wordSpacing
+lineHeight
+textIndent
+
+*/

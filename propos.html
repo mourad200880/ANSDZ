@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ANSS</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/anss.css">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.css">
+	<link href="https://fonts.googleapis.com/css?family=Overpass|Roboto|Roboto+Condensed|Srisakdi" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid padding">
+	<!--Navigation-->
+	<nav class=" navbar navbar-expand-md navbar-dark bg-success sticky-top nv">
+	    <div class="container-fluid">
+		    <a href="anss.html" class="navbar-brand">
+			    <h3>Annuaire des Sites </h3>
+		    </a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarResponsive">
+			    <ul class="navbar-nav ml-auto">
+				    <li class="nav-item active">
+					    <a href="#home" class="nav-link">Acceuil</a>
+				    </li>
+				    
+				    <li class="nav-item">
+					    <a href="#sign" class="nav-link">Inscription</a>
+				    </li>
+				    <li class="nav-item">
+					    <a href="#account" class="nav-link">Mon Compte</a>
+				    </li>
+				    <li class="nav-item">
+					    <a href="#contact" class="nav-link">Contact</a>
+				    </li>
+				    <li class="nav-item">
+					    <a href="#blog" class="nav-link">Blog</a>
+				    </li>
+				
+			    </ul>
+		    </div>
+	    </div>
+    </nav>
+    <!--End of Navigation-->
+    <!--Recherche bar-->
+	<div class="container">
+		<div class="col-md-12 text-center">
+			 
+			
+			<div class="form-inline">
+			        <label><input type="text" name="" value="" placeholder="We Have what you are looking for " id="input_bar" class='form-control'>
+			        	<button type="button" class="btn btn-success ml-auto btn-s">
+				           <span class='glyphicon glyphicon-search'> </span>
+                           <i class="fa fa-search"></i>
+             
+			        </button></label>
+			        	
+			    </div>
+			    	
+			
+			
+		</div>
+	</div>
+	<!--End of Recherche Bar-->
+
+	<!--Proposer-->
+	<section class="container-fluid ctForm " id="contact">
+		<div class="container">
+					<h1>Proposer un article:</h1>
+                    <p><strong>Vous voulez partager un article avec nous soyez les bienvenues cette espace est dédié pour ça.</strong> 
+                    <hr>
+		</div>
+
+		<div class="container-fluid">
+			<form action="inscription_submit" method="get" accept-charset="utf-8">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-6">
+					    <label  for="titre">Titre:*</label>
+					    <input type="text" name="" value="" placeholder="Votre Titre" required id="titre">
+					</div>
+				    <div class="col-sm-12 col-md-12 col-lg-6">
+					    <label  for="img">Image:*</label>
+					    <input type="file" name="" value="" placeholder="Votre Image" required id="img">
+			 	    </div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-6">
+					    <label  for="date">Date:*</label>
+					    <input type="date" name="" value="" placeholder="Date" required id="date">
+					
+				    </div>
+					<div class="col-12">
+					    <h5>Message</h5>
+					    <textarea name="message" id="messagealert" cols="76" rows="10" placeholder="......."></textarea>
+				   </div>
+				</div>
+		        
+				<div class="container text-center">
+					<button class="btn btn-outline-success mt-5 text-center" type="submit">Envoyer</button>
+				</div>
+				
+			</form>	
+
+			</div>
+		    
+		
+	</section>
+	<!--/Proposer-->
+
+	<!--footer-->
+	<footer class="container-fluid text-center bg-success">
+		<div class="row">
+        <div class="col-sm-4">
+        	<h4>Contactez Nous :</h4>
+            <br>
+            <h3>Hassiba Ben Bouali Alger</h3>
+            <h3>Tel : 05 51 16 97 99</h3>
+        </div>
+        <div class="col-sm-4">
+          <h3>Connect</h3>
+          <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/?lang=fr" class="fa fa-twitter"></a>
+          <a href="https://www.google.com/" class="fa fa-google"></a>
+          <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+          <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+        </div>
+        <div class="col-sm-4">
+          <a href="#" class="navbar-brand ft-a">
+			    <h2>Annuaire des Sites </h2>
+		    </a>
+        </div>
+      </div>
+      
+	</footer>
+<!--End of footer-->	
+		
+	</div>
+</div>
+
+
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/anss.js"></script>
+
+</body>
+</html>
